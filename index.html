@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Desafio 1</title>
+</head>
+<body>
+
+    <section class="contenedor ">
+        <h1 class="contenedor__titulo">NaraMotors</h1>
+        <div class="contenedor__cards">
+            <div class="contenedor__cards__card" id="card">
+                <img src="./img/bmw-1216469_640.jpg" alt="auto1" class="contenedor__card__img img1">
+                <button id="button" class="contenedor__card__button auto1">Descripción</button>
+            </div>
+            <div class="contenedor__cards__card" id="card">
+                <img src="./img/car-1300629_640.png" alt="auto1" class="contenedor__card__img img2">
+                <button id="button" class="contenedor__card__button auto2">Descripción</button>
+            </div>
+            <div class="contenedor__cards__card" id="card">
+                <img src="./img/car-604019_640.jpg" alt="auto1" class="contenedor__card__img img3">
+                <button id="button" class="contenedor__card__button auto3">Descripción</button>
+            </div>
+            <div class="contenedor__cards__card" id="card">
+                <img src="./img/car-63930_640.jpg" alt="auto1" class="contenedor__card__img img4">
+                <button id="button" class="contenedor__card__button auto4">Descripción</button>
+            </div>
+        </div>
+        <div class="contenedor__banners">
+            <div class="contenedor__banner--uno">
+                <h2 class="contenedor__banner__titulo">Los mejores Autos en un solo lugar</h2>
+            </div>
+            <div class="contenedor__banner--dos">
+                <h2 class="contenedor__banner__titulo">Cotiza tu vehículo Aquí </h2>
+                
+                <button class="contenedor__banner__button">Contactanos</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal__contenido">
+            <h3 class="modal__titulo" id="modal__titulo"></h3>
+            <p class="modal__descripcion" id="modal__descripcion"></p>
+        </div>
+        <div class="modal__cerrar">
+            <i class="fa-solid fa-x"></i>
+        </div>
+    </div>
+
+    
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
